@@ -29,7 +29,7 @@ app.use(`${api}/users`, usersRoutes);
 mongoose.connect(process.env.CONNECTION_STRING, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: 'eshop-database'
+  dbName: 'guidr-database'
 })
 .then(()=>{
   console.log('Database Connection is ready...')
